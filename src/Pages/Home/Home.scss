@@ -1,0 +1,39 @@
+.main {
+
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    padding: 1rem;
+
+    input {
+        margin: 2px;
+        padding: 10px 20px;
+        border: 1px solid #007DFC;
+        border-radius: 2px;
+        height: 20px;
+
+        &:focus {
+            border-color: #007DFC;
+            outline: none;
+        }
+    }
+
+    button {
+        margin: 2px;
+        background-color: #007DFC;
+        border: 0px;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 2px;
+
+        &:hover {
+            opacity: 0.8;
+            cursor: pointer;
+        }
+    }
+
+    Calendar {
+        margin: 20rem;
+    }
+
+}
